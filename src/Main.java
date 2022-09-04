@@ -39,5 +39,15 @@ public class Main {
         double averageDoube = (double) sum / array.length;
         String average = String.format("%.2f", averageDoube);
         System.out.println("Средняя трата за день = " + average);
+
+    char[] reversFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+           for (int i = reversFullName.length -1; i>=0; i--){
+        System.out.print(reversFullName[i]);
     }
-}
+}}
+
+
+
+
+
+
